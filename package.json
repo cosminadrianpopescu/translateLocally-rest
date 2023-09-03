@@ -1,0 +1,25 @@
+{
+    "name": "translatelocally-rest",
+    "version": "0.0.1",
+    "description": "Rest proxy for translateLocally",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc --diagnostics"
+    },
+    "author": "Cosmin Popescu",
+    "license": "GPL-3.0-or-later",
+    "devDependencies": {
+        "@types/express": "^4.17.17",
+        "@types/node": "^20.5.7",
+        "tslib": "^2.6.2",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "dinoloop": "^2.4.0",
+        "express": "^4.18.2",
+        "source-map-support": "^0.5.21",
+        "tsdim": "^0.0.15"
+    }
+}
